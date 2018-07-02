@@ -30,6 +30,9 @@ a {
   color: #9f72e6;
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 input,
 button {
   outline: 0;
@@ -45,7 +48,8 @@ input[type=number] {
   box-shadow: 1px 1px 3px 1px #ccc;
   border: 1px solid #eee;
 }
-button {
+button,
+.button {
   cursor: pointer;
   background: #9f72e6;
   border: 0;
